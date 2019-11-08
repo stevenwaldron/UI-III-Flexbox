@@ -14,7 +14,7 @@ fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed, 
 figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
+menu, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
@@ -22,6 +22,8 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
+	text-decoration: none;
+	
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -62,5 +64,108 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
+
+.iov {
+	display: flex;
+	justify-content: space-evenly;
+	font-size: 80px;
+	margin-left: 100px;
+	margin-top: 60px;
+}
+
+.iod {
+	margin-top: 40px;
+	display: flex;
+	flex-direction: column;
+	justify-items: center;
+	text-align: center;
+}
+
+.button {
+	display: flex;
+	justify-content: center;
+	font-size: 30px;
+	margin-right: 100px;
+	margin-left: 220px;
+	width: 200px;
+	border-color: black;
+	background: white;
+	margin-bottom: 
+}
+
+
+}
+
+.logo {
+	display: flex;
+	justify-content: flex-end;
+	margin-top: 10px;
+	margin-right: 100px;
+	
+}
+
+.header-image {
+	display: flex;
+	justify-content: flex-end;
+	margin-right: 150px;
+	margin-left: 50px;
+	margin-bottom: 90px
+}
+
+.top-section {
+	
+	display: flex;
+	justify-content:
+	align-content: center;
+	margin-left: 60px;
+	margin-right: 60px;
+}
+
+.bottom-section {
+	display: flex;
+	margin-left: 60px;
+	margin-right: 60px;
+
+}
+
+.middle-img {
+	display: flex;
+	justify-content: center;
+	margin: 50px;
+}
+
+#features, #about, #services, #product, #vision, #contact {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	margin: 20px;
+	width: 200p
+}
+
+#contact {
+	margin-top: 40px;
+	margin-left: 80px;
+	margin-bottom: 100px;
+}
+footer {
+	text-align: center;
+}
+
+#navigation {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	
+	
+}
+
+.nav {
+	color: gray
+}
+
+.nav:hover {
+	color: darkgray;
+}
+
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
